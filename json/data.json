@@ -1,0 +1,632 @@
+[
+    {
+        "id": "1",
+        "title": "MiSide",
+        "description": "Hãy tưởng tượng rằng bạn có một trò chơi mà bạn quan tâm đến một nhân vật. Nhưng bạn có thể tưởng tượng một ngày nào đó bạn sẽ tham gia vào trò chơi đó không?",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2527500/header.jpg?t=1740650632",
+        "price": "205.000₫",
+        "developer": "AIHASTO",
+        "tags": ["Kinh dị tâm lý", "Dễ Thương", "Giàu cốt truyện" ,"Kinh dị"]
+    },
+    {
+        "id": "2",
+        "title": "It Takes Two",
+        "description": "Bắt đầu cuộc hành trình điên rồ nhất trong cuộc đời bạn trong It Takes Two. Mời một người bạn tham gia miễn phí với Friend's Pass và cùng nhau vượt qua vô số thử thách chơi game gây rối loạn thú vị.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg?t=1730911936",
+        "price": "790.000₫",
+        "developer": "Hazelight Studios",
+        "tags": ["Phối hợp", "Chơi nhiều người", "Chia màn hình"]
+    },
+    {
+        "id": "3",
+        "title": "Subnautica",
+        "description": "Đi xuống vực sâu của thế giới dưới nước của người ngoài hành tinh đầy những điều kỳ diệu và nguy hiểm. Chế tạo thiết bị, tàu ngầm thí điểm và động vật hoang dã thông minh để khám phá các rạn san hô tươi tốt, núi lửa, hệ thống hang động, v.v. - tất cả trong khi cố gắng sinh tồn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1729208919",
+        "price": "595.000₫",
+        "developer": "Unknown Worlds Entertainment",
+        "tags": ["Sandbox", "Sinh tồn", "Chơi đơn", "Dưới nước"]
+    },
+    {
+        "id": "4",
+        "title": "Dota 2",
+        "description": "Mỗi ngày, hàng triệu người chơi toàn cầu nhập vai một trong hàng trăm tướng Dota để tham chiến. Và dù là giờ chơi thứ 10 hay 10000, luôn có điều mới để khám phá. Được cập nhật thường xuyên để lối chơi, tính năng và tướng luôn tiến hóa, Dota 2 như có sức sống của riêng mình.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1739210483",
+        "price": "Miễn phí",
+        "developer": "Valve",
+        "tags": ["MOBA", "Chơi nhiều người", "eSport", "PvP"]
+    },
+    {
+        "id": "5",
+        "title": "Subnautica: Below Zero",
+        "description": "Lặn vào cuộc phiêu lưu dưới nước lạnh giá trên một hành tinh xa lạ. Below Zero lấy bối cảnh hai năm sau Subnautica gốc. Quay trở lại Hành tinh 4546B để khám phá sự thật đằng sau một vụ che đậy chết người. Sống sót bằng cách xây dựng môi trường sống, chế tạo công cụ và lặn sâu hơn vào thế giới Subnautica",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1729209036",
+        "price": "595.000₫",
+        "developer": "Unknown Worlds Entertainment",
+        "tags": ["Sandbox", "Sinh tồn", "Chơi đơn", "Dưới nước"]
+    },
+    {
+        "id": "6",
+        "title": "Atomic Heart",
+        "description": "Trong một thế giới không tưởng điên rồ và tuyệt vời, hãy tham gia vào các cuộc chạm trán bùng nổ. Điều chỉnh phong cách chiến đấu của bạn cho phù hợp với từng đối thủ, sử dụng môi trường của bạn và nâng cấp thiết bị của bạn để hoàn thành nhiệm vụ. Nếu bạn muốn đạt được sự thật, bạn sẽ phải trả bằng máu",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1742305587",
+        "price": "800.000₫",
+        "developer": "Mundfish",
+        "tags": ["Nhập vai(RPG)", "Bắn súng", "Khoa học viễn tưởng", "Kinh dị", "Chơi đơn"]
+    },
+    {
+        "id": "7",
+        "title": "Stray",
+        "description": "Bị lạc, cô đơn và xa gia đình, một chú mèo hoang phải giải mã một bí ẩn cổ xưa để thoát khỏi thành phố mạng đã bị lãng quên từ lâu và tìm đường về nhà.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
+        "price": "379.000₫",
+        "developer": "BlueTwelve Studio",
+        "tags": ["Mèo", "Phiêu lưu", "Cyperpunk", "Indie"]
+    },
+    {
+        "id": "8",
+        "title": "Thần Trùng",
+        "description": "Thần Trùng | The Death là trò chơi phiêu lưu kinh dị tâm lý do 3 người Việt phát triển. Game lấy bối cảnh thành phố Hà Nội năm 2021.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1726400/header.jpg?t=1678019934",
+        "price": "75.000₫",
+        "developer": "DUT Studio",
+        "tags": ["Kinh dị", "Kinh dị tâm lý", "Giải đố", "Indie", "Phiêu lưu"]
+    },
+    {
+        "id": "9",
+        "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "description": "Cloud Strife, một cựu chiến binh SOLDIER, hạ cánh xuống thành phố Midgar được cung cấp năng lượng mako. Thế giới của FINAL FANTASY VII kinh điển vượt thời gian được tái sinh, sử dụng công nghệ đồ họa tiên tiến, hệ thống chiến đấu mới và một cuộc phiêu lưu bổ sung có sự góp mặt của Yuffie Kisaragi.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1462040/header.jpg?t=1737643021",
+        "price": "990.000₫",
+        "developer": "Square Enix",
+        "tags": ["Nhập vai(RPG)", "Hành động nhập vai", "Chơi đơn", "Nhập vai Nhật(JRPG)"]
+    },
+    {
+        "id": "10",
+        "title": "Split Fiction",
+        "description": "Tận hưởng những khoảnh khắc tuyệt vời khi bạn đắm chìm vào nhiều thế giới của Split Fiction, một cuộc phiêu lưu hợp tác vượt qua mọi giới hạn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1742852969",
+        "price": "899.000₫",
+        "developer": "Hazelight Studios",
+        "tags": ["Phối hợp", "Chia màn hình", "Nữ chính", "Kỳ ảo"]
+    },
+    {
+        "id": "11",
+        "title": "SILENT HILL 2",
+        "description": "Điều tra một lá thư từ người vợ quá cố, James quay trở lại nơi họ đã tạo nên rất nhiều kỷ niệm - Silent Hill. Những gì anh tìm thấy là một thị trấn ma, bị những con quái vật đáng sợ rình rập và bao phủ trong sương mù dày đặc. Đối đầu với những con quái vật, giải câu đố và tìm kiếm dấu vết của vợ bạn",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg?t=1737565204",
+        "price": "1.400.000₫",
+        "developer": "Bloober Team SA",
+        "tags": ["Kinh dị tâm lý", "Kinh dị", "Tâm lý", "Kinh dị sống còn", "Giàu cốt truyện"]
+    },
+    {
+        "id": "12",
+        "title": "SILENT HILL f",
+        "description": "Quê hương của Hinako chìm trong sương mù, thúc đẩy cô chiến đấu với những con quái vật kỳ dị và giải những câu đố rùng rợn. Khám phá vẻ đẹp đáng sợ ẩn chứa trong nỗi kinh hoàng.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2947440/fb3eeba8f26d3fa6a0dcf4fe41af20677aa97936/header.jpg?t=1741903246",
+        "price": "",
+        "developer": "NeoBards Entertainment Ltd",
+        "tags": ["Kinh dị tâm lý", "Kinh dị", "Tâm lý", "Kinh dị sống còn", "Phiêu lưu"]
+    },
+    {
+        "id": "13",
+        "title": "Counter-Strike 2",
+        "description": "Trong hai thập kỷ qua, Counter-Strike đã mang lại trải nghiệm thi đấu cao cấp, được nhào nặn bởi hàng triệu người chơi trên toàn cầu. Và giờ chương tiếp theo của câu chuyện CS chuẩn bị khởi màn. Đây là Counter-Strike 2.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1729703045",
+        "price": "Miễn phí",
+        "developer": "Valve",
+        "tags": ["Bắn súng góc nhìn thứ nhất(FPS)", "Bắn súng", "PvP"]
+    },
+    {
+        "id": "14",
+        "title": "Resident Evil Village",
+        "description": "Trải nghiệm nỗi kinh hoàng sinh tồn chưa từng có trong phần thứ 8 của loạt phim Resident Evil - Resident Evil Village. Với đồ họa chi tiết, hành động góc nhìn thứ nhất dữ dội và cách kể chuyện tài tình, nỗi kinh hoàng chưa bao giờ chân thực đến thế.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1741142800",
+        "price": "881.000₫",
+        "developer": "CAPCOM Co., Ltd.",
+        "tags": ["Kinh dị sống còn", "Kinh dị", "Góc nhìn thứ nhất", "Zombie"]
+    },
+    {
+        "id": "15",
+        "title": "Phasmophobia",
+        "description": "Phasmophobia là game kinh dị tâm lý hợp tác trực tuyến 4 người chơi. Hoạt động huyền bí đang gia tăng và bạn cùng đồng đội phải sử dụng mọi thiết bị săn ma có sẵn để thu thập càng nhiều bằng chứng càng tốt.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg?t=1740090955",
+        "price": "260.000₫",
+        "developer": "Kinetic Games",
+        "tags": ["Kinh dị", "Phối hợp", "Chơi nhiều người"]
+    },
+    {
+        "id": "16",
+        "title": "Rust",
+        "description": "Mục tiêu duy nhất trong Rust là sống sót. Mọi thứ đều muốn bạn chết - động vật hoang dã trên đảo, cư dân khác, môi trường và những người sống sót khác. Làm mọi cách để sống sót qua đêm tiếp theo.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1738927718",
+        "price": "470.000₫",
+        "developer": "Facepunch Studios",
+        "tags": ["Sinh tồn", "Chế tác", "Chơi nhiều người", "Thế giới mở"]
+    },
+    {
+        "id": "17",
+        "title": "Left 4 Dead 2",
+        "description": "Lấy bối cảnh tận thế zombie, Left 4 Dead 2 (L4D2) là hậu bản đầy mong chờ của Left 4 Dead, trò chơi phối hợp số một đạt nhiều giải thưởng trong năm 2008. Trò chơi bắn súng kinh dị phối hợp góc nhìn thứ nhất này mang bạn và chiến hữu qua các thành phố, nghĩa địa và đầm lầy của Thâm Nam, từ",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/500/header.jpg?t=1738796049",
+        "price": "142.000₫",
+        "developer": "Valve",
+        "tags": ["Zombie", "Phối hợp", "Bắn súng", "Chơi nhiều người"]
+    },
+    {
+        "id": "18",
+        "title": "R.E.P.O.",
+        "description": "Một trò chơi kinh dị hợp tác trực tuyến với tối đa 6 người chơi. Xác định vị trí các vật thể có giá trị, hoàn toàn dựa trên vật lý và xử lý chúng một cách cẩn thận khi bạn lấy và trích xuất để thỏa mãn mong muốn của người sáng tạo.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg?t=1740578354",
+        "price": "142.000₫",
+        "developer": "semiwork", 
+        "tags": ["Kinh dị", "Phối hợp", "Hài", "Lén lút", "Hành động"]
+    },
+    {
+        "id": "19",
+        "title": "Monster Hunter Wilds",
+        "description": "Sức mạnh vô biên của thiên nhiên diễn ra dữ dội và không ngừng nghỉ, với môi trường biến đổi mạnh mẽ từ khoảnh khắc này sang khoảnh khắc khác. Đây là câu chuyện về quái vật và con người cùng cuộc đấu tranh của họ để sống hòa hợp trong một thế giới nhị nguyên.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1742975808",
+        "price": "1.390.000₫",
+        "developer": "CAPCOM Co., Ltd.",
+        "tags": ["Săn bắn", "Hành động", "Chơi nhiều người", "Phối hợp"]
+    },
+    {
+        "id": "20",
+        "title": "God of War Ragnarök",
+        "description": "Kratos và Atreus bước vào một cuộc hành trình thần thoại để tìm kiếm câu trả lời trước khi tận thế Ragnarök ập đến",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985",
+        "price": "1.290.000₫",
+        "developer": "Santa Monica Studio, Jetpack Interactive",
+        "tags": ["Hành động", "Phiêu lưu", "Nhập vai(RPG)", "Thần thoại"]
+    },
+    {
+        "id": "21",
+        "title": "Hogwarts Legacy",
+        "description": "Hogwarts Legacy là một game nhập vai hành động thế giới mở nhập vai. Bây giờ bạn có thể kiểm soát hành động và trở thành trung tâm của cuộc phiêu lưu của riêng bạn trong thế giới phù thủy.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg?t=1738007476",
+        "price": "1.290.000₫",
+        "developer": "Avalanche Software",
+        "tags": ["Ma thuật", "Thế giới mở", "Kỳ ảo", "Chơi đơn"]
+    },
+    {
+        "id": "22",
+        "title": "ELDEN RING",
+        "description": "GAME HÀNH ĐỘNG ẢO TƯỞNG ĐƯỢC PHÊ BÌNH ĐÁNH GIÁ CAO. Hãy trỗi dậy, Tarnished, và được ân sủng dẫn dắt để vung sức mạnh của Elden Ring và trở thành Chúa tể Elden ở vùng đất giữa.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1739922037",
+        "price": "990.000₫",
+        "developer": "FromSoftware, Inc.",
+        "tags": ["Dark soul", "Thế giới mở", "Kỳ ảo u ám", "Độ khó cao"]
+    },
+    {
+        "id": "23",
+        "title": "NARAKA BLADEPOINT",
+        "description": "NARAKA: BLADEPOINT là trải nghiệm chiến đấu hành động huyền thoại tối đa 60 người chơi chiến đấu cận chiến lấy cảm hứng từ võ thuật, khả năng bất chấp trọng lực, kho vũ khí đa dạng gồm các loại vũ khí cận chiến và tầm xa, các tướng huyền thoại có thể tùy chỉnh với năng lực cực phẩm",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203220/69531442db0cbb2581bfe842a24e270536648b5b/header.jpg?t=1743561922",
+        "price": "Miễn phí",
+        "developer": "24 Entertainment",
+        "tags": ["Đấu trường sinh tử", "Chơi nhiều người", "Võ thuật", "Hành động"]
+    },
+    {
+        "id": "24",
+        "title": "DOOM Eternal",
+        "description": "Đội quân của Địa ngục đã xâm chiếm Trái đất. Hãy trở thành Slayer trong chiến dịch chơi đơn hoành tráng để đánh bại lũ quỷ trên khắp các chiều không gian và ngăn chặn sự hủy diệt cuối cùng của nhân loại. Điều duy nhất chúng sợ... là bạn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg?t=1702308063",
+        "price": "490.000₫",
+        "developer": "id Software",
+        "tags": ["Bắn súng góc nhìn thứ nhất(FPS)", "Hành động", "Máu", "Chơi đơn"]
+    },
+    {
+        "id": "25",
+        "title": "Cỏ máu",
+        "description": "Cỏ Máu lấy bối cảnh miền quê Việt Nam xưa, khi tư tưởng trọng nam khinh nữ vẫn còn đè nặng lên vai người phụ nữ. Đứng trước cái chết bí ẩn của người chị gái và sự ra đi đột ngột của anh rể, Minh phải đối diện với những hiện tượng siêu nhiên để tìm hiểu nguyên nhân cái chết của anh chị mình.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1673000/header.jpg?t=1698554680",
+        "price": "99.000₫",
+        "developer": "TEGA Studio",
+        "tags": ["Phiêu lưu", "Indie", "Kinh dị sống còn"]
+    },
+    {
+        "id": "26",
+        "title": "Minecraft Dungeons",
+        "description": "Chiến đấu theo cách của bạn trong trò chơi phiêu lưu hành động thú vị, lấy cảm hứng từ trò chơi khám phá ngục tối kinh điển và lấy bối cảnh trong vũ trụ Minecraft!",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1672970/header.jpg?t=1717003107",
+        "price": "450.000₫",
+        "developer": "Mojang Studios, Double Eleven",
+        "tags": ["Cày hầm ngục", "Chặt chém", "Phiêu lưu", "Hành động"]
+    },
+    {
+        "id": "27",
+        "title": "Stardew Valley",
+        "description": "Bạn được thừa hưởng một trang trại cũ của ông nội trong Stardew Valley. Được trang bị những công cụ cũ và một ít tiền xu, bạn bắt đầu cuộc sống mới. Bạn có thể học cách sống trên đất và biến những cánh đồng um tùm này thành một ngôi nhà thịnh vượng không?",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
+        "price": "165.000₫",
+        "developer": "ConcernedApe",
+        "tags": ["Mô phỏng nông trại", "Đồ họa pixel", "Chơi nhiều người", "Chơi đơn"]
+    },
+    {
+        "id": "28",
+        "title": "Slime Rancher 2",
+        "description": "Tiếp tục cuộc phiêu lưu của Beatrix LeBeau khi cô băng qua Biển Slime đến Đảo Rainbow, một vùng đất tràn ngập những bí ẩn cổ xưa và tràn ngập những sinh vật slime mới lạ, đáng yêu để chiến đấu trong phần tiếp theo của bộ phim ăn khách Slime Rancher.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1657630/header.jpg?t=1734026440",
+        "price": "325.000₫",
+        "developer": "Monomi Park",
+        "tags": ["Thư giãn", "Chơi đơn", "Góc nhìn thứ nhất"]
+    },
+    {
+        "id": "29",
+        "title": "DAVE THE DIVER",
+        "description": "DAVE THE DIVER là một game nhập vai phiêu lưu đơn giản, có tính năng khám phá và câu cá dưới biển sâu vào ban ngày và quản lý nhà hàng sushi vào ban đêm. Hãy tham gia cùng Dave và những người bạn kỳ quặc của anh ấy khi họ tìm cách khám phá bí mật của Blue Hole bí ẩn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg?t=1740028453",
+        "price": "156.000₫",
+        "developer": "MINTROCKET",
+        "tags": ["Đồ họa pixel", "Quản lí", "Phiêu lưu", "Dưới nước", "2D"]
+    },
+    {
+        "id": "30",
+        "title": "DREDGE",
+        "description": "DREDGE là cuộc phiêu lưu câu cá một người chơi với dòng nước ngầm nham hiểm. Bán cá đánh bắt được, nâng cấp thuyền và nạo vét đáy biển để tìm những bí mật đã chôn giấu từ lâu. Khám phá quần đảo bí ẩn và tìm hiểu lý do tại sao một số thứ tốt nhất nên bị lãng quên.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1739550347",
+        "price": "500.000₫",
+        "developer": "Black Salt Games",
+        "tags": ["Câu cá", "Khám phá", "Phong cách lovecrafe", "bí ẩn"]
+    },
+    {
+        "id": "31",
+        "title": "Like a Dragon Pirate Yakuza in Hawaii",
+        "description": "Tham gia vào cuộc phiêu lưu cướp biển hiện đại đỉnh cao với một cựu yakuza, giờ là thuyền trưởng cướp biển và thủy thủ đoàn của anh ta. Tham gia vào cuộc chiến thú vị trên đất liền và trên biển để săn tìm những ký ức và kho báu đã mất.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3061810/header.jpg?t=1743179987",
+        "price": "980.000₫",
+        "developer": "Ryu Ga Gotoku Studio",
+        "tags": ["Hành động", "Phiêu lưu", "Cướp biển"]
+    },
+    {
+        "id": "32",
+        "title": "Vampire Survivors",
+        "description": "Tiêu diệt hàng ngàn sinh vật bóng đêm và sống sót cho đến bình minh! Vampire Survivors là một trò chơi kinh dị gothic thông thường với các yếu tố rogue-lite, nơi các lựa chọn của bạn có thể cho phép bạn nhanh chóng chống lại hàng trăm quái vật tấn công bạn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg?t=1730983128",
+        "price": "56.000₫",
+        "developer": "poncle",
+        "tags": ["Roughlike", "Đồ họa pixel", "2D", "Indie"]
+    },
+    {
+        "id": "33",
+        "title": "Sons Of The Forest",
+        "description": "Được cử đi tìm một tỷ phú mất tích trên một hòn đảo xa xôi, bạn thấy mình đang ở trong một địa ngục đầy rẫy những kẻ ăn thịt người. Hãy chế tạo, xây dựng và đấu tranh để sinh tồn, một mình hoặc với bạn bè, trong trò chơi mô phỏng kinh dị sinh tồn thế giới mở mới đáng sợ này.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+        "price": "385.000₫",
+        "developer": "Endnight Games Ltd",
+        "tags": ["Sinh tồn", "Thế giới mở", "Chơi nhiều người", "Kinh dị"]
+    },
+    {
+        "id": "34",
+        "title": "Baldur's Gate 3",
+        "description": "Baldur's Gate 3 là một game nhập vai theo nhóm với cốt truyện phong phú lấy bối cảnh trong vũ trụ của Dungeons & Dragons, nơi những lựa chọn của bạn định hình nên câu chuyện về tình bạn và sự phản bội, sự sống còn và sự hy sinh, cùng sự hấp dẫn của quyền lực tuyệt đối.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1740386911",
+        "price": "990.000₫",
+        "developer": "Larian Studios",
+        "tags": ["Nhập vai(RPG)", "Giàu cốt truyện", "Dungeons & Dragons", "Phiêu lưu", "Chiến đấu theo lượt"]
+    },
+    {
+        "id": "35",
+        "title": "Street Fighter 6",
+        "description": "Đây là đối thủ mới nhất của Capcom! Street Fighter™ 6 ra mắt trên toàn thế giới vào ngày 2 tháng 6 năm 2023 và đại diện cho sự phát triển tiếp theo của series Street Fighter™! Street Fighter 6 bao gồm ba chế độ chơi riêng biệt, bao gồm World Tour, Fighting Ground và Battle Hub.",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1408/l3bg7nmfPpPzam5jOVlaUFww.jpg",
+        "price": "1.322.000₫",
+        "developer": "CAPCOM Co., Ltd.",
+        "tags": ["Đối kháng", "Tùy biến nhân vật", "Hành động", "Chơi nhiều người"]
+    },
+    {
+        "id": "36",
+        "title": "Devil May Cry 5",
+        "description": "Devil Hunter đỉnh cao đã trở lại theo phong cách mà người hâm mộ trò chơi hành động đang chờ đợi.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg?t=1701395090",
+        "price": "705.000₫",
+        "developer": "CAPCOM Co., Ltd.",
+        "tags": ["Hành động", "Chặt chém", "Chơi đơn"]
+    },
+    {
+        "id": "37",
+        "title": "Persona 5 Royal",
+        "description": "Hãy đeo mặt nạ và tham gia cùng Phantom Thieves of Hearts khi họ thực hiện những vụ trộm lớn, thâm nhập vào tâm trí của những kẻ tham nhũng và khiến chúng thay đổi cách sống!",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1733297467",
+        "price": "1.380.000₫",
+        "developer": "ATLUS",
+        "tags": ["Nhập vai Nhật(JRPG)", "Giàu cốt truyện", "Anime", "Chiến đấu theo lượt"]
+    },
+    {
+        "id": "38",
+        "title": "NieR:Automata™",
+        "description": "NieR: Automata kể về câu chuyện của những người máy 2B, 9S và A2 cùng cuộc chiến của họ để giành lại thế giới phản địa đàng do máy móc điều khiển đang bị những cỗ máy mạnh mẽ xâm chiếm.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg?t=1741878275",
+        "price": "833.000₫",
+        "developer": "Square Enix, PlatinumGames Inc.",
+        "tags": ["Nữ chính", "Giàu cốt truyện", "Chặt chém", "Thế giới mở", "Nhập vai Nhật(JRPG)"]
+    },
+    {
+        "id": "39",
+        "title": "Sekiro™: Shadows Die Twice",
+        "description": "Game của năm - Giải thưởng Game 2019 Game hành động hay nhất năm 2019 - IGN Hãy tự vạch ra con đường trả thù thông minh của riêng bạn trong cuộc phiêu lưu từng đoạt giải thưởng từ nhà phát triển FromSoftware, những người sáng tạo ra Bloodborne và loạt Dark Souls. Trả thù. Khôi phục danh dự của bạn. Giết người khéo léo.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1726158438",
+        "price": "1.290.000₫",
+        "developer": "FromSoftware, Inc.",
+        "tags": ["Dark soul", "Độ khó cao", "Chặt chém", "Hành động", "Phiêu lưu", "Chơi đơn"]
+    },
+    {
+        "id": "40",
+        "title": "Maneater",
+        "description": "",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629820/header.jpg?t=1697725794",
+        "price": "Trải nghiệm sức mạnh tưởng tượng tột cùng như kẻ săn mồi đỉnh cao của biển cả - một con cá mập khổng lồ! Làm kinh hoàng các tuyến đường thủy ven biển. Xé xác những người bơi lội và thợ lặn, cho loài người một lý do để sợ bạn!",
+        "developer": "Tripwire Interactive",
+        "tags": ["Thế giới mở", "Bạo lực", "Dưới nước", "Nhập vai(RPG)"]
+    },
+    {
+        "id": "41",
+        "title": "My Friend Pedro",
+        "description": "My Friend Pedro là một vở ballet bạo lực về tình bạn, trí tưởng tượng và cuộc đấu tranh của một người đàn ông nhằm tiêu diệt bất kỳ ai cản đường mình theo lệnh của một quả chuối có tri giác.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/557340/header.jpg?t=1738277402",
+        "price": "260.000₫",
+        "developer": "DeadToast Entertainment",
+        "tags": ["Hành động", "Chơi đơn", "Bắn súng", "Parkour", "Bạo lực"]
+    },
+    {
+        "id": "42",
+        "title": "BlazBlue Entropy Effect",
+        "description": "Tận hưởng những trận chiến hào nhoáng đầy hành động với những combo cực kỳ thỏa mãn và điều khiển nhạy bén! Nhiều nhân vật, mỗi nhân vật có phong cách chơi hoàn toàn độc đáo và nhiều động tác & nâng cấp có thể mở khóa! Trò chơi roguelike hành động này đặt ra tiêu chuẩn cho hành động nhịp độ nhanh.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2273430/header.jpg?t=1737400773",
+        "price": "260.000₫",
+        "developer": "91Act",
+        "tags": ["Roughlike", "Phiêu lưu", "2D", "Anime", "Cyperpunk"]
+    },
+    {
+        "id": "43",
+        "title": "Black Myth: Wukong",
+        "description": "Black Myth: Wukong là một game nhập vai hành động lấy cảm hứng từ thần thoại Trung Hoa. Bạn sẽ vào vai Người được định mệnh để dấn thân vào những thử thách và điều kỳ diệu phía trước, để khám phá ra sự thật ẩn giấu bên dưới bức màn của một truyền thuyết huy hoàng từ quá khứ.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528",
+        "price": "1.299.000₫",
+        "developer": "Game Science",
+        "tags": ["Thần thoại", "Hành động nhập vai", "3D", "Dark soul"]
+    },
+    {
+        "id": "44",
+        "title": "Cyberpunk 2077",
+        "description": "Cyberpunk 2077 là game nhập vai hành động phiêu lưu thế giới mở lấy bối cảnh tương lai đen tối của Night City — một siêu đô thị nguy hiểm bị ám ảnh bởi quyền lực, sự quyến rũ và việc cải tạo cơ thể không ngừng.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1734434803",
+        "price": "990.000₫",
+        "developer": "CD PROJEKT RED",
+        "tags": ["Cyperpunk", "Thế giới mở", "Chơi đơn", "Bắn súng góc nhìn thứ nhất(FPS)", "Hành động nhập vai"]
+    },
+    {
+        "id": "45",
+        "title": "Dying Light 2 Stay Human: Reloaded Edition",
+        "description": "Nhân loại đang thất thế trong trận chiến chống lại virus. Trải nghiệm một thế giới mở phong cách hậu tận thế bị tàn phá bởi lũ thây ma, kỹ năng parkour và chiến đấu của bạn là chìa khóa để sống sót tại nơi đây.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1739988558",
+        "price": "990.000₫",
+        "developer": "Techland",
+        "tags": ["Thế giới mở", "Phối hợp", "Zombie", "Parkour"]
+    },
+    {
+        "id": "46",
+        "title": "Hollow Knight",
+        "description": "Tạo nên con đường riêng của bạn trong Hollow Knight! Một cuộc phiêu lưu hành động hoành tráng qua một vương quốc rộng lớn bị tàn phá của côn trùng và anh hùng. Khám phá những hang động quanh co, chiến đấu với những sinh vật bị ô nhiễm và kết bạn với những con bọ kỳ lạ.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428",
+        "price": "165.000₫",
+        "developer": "Team Cherry",
+        "tags": ["Metroidvania", "Dark soul", "Platformer", "2D"]
+    },
+    {
+        "id": "47",
+        "title": "Marvel Rivals",
+        "description": "Marvel Rivals là game bắn súng PVP theo đội siêu anh hùng! Tập hợp một đội toàn sao Marvel, nghĩ ra vô số chiến lược bằng cách kết hợp sức mạnh để tạo thành các kỹ năng Team-Up độc đáo và chiến đấu trên các chiến trường có thể phá hủy, luôn thay đổi trong vũ trụ Marvel liên tục phát triển!",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/header.jpg?t=1741923063",
+        "price": "Miễn phí",
+        "developer": "NetEase Games",
+        "tags": ["Chơi nhiều người", "Siêu anh hùng", "Lối chơi đồng đội", "PvP"]
+    },
+    {
+        "id": "48",
+        "title": "Unpossess: Exorcism Simulator",
+        "description": "Unpossess là trò chơi mô phỏng trừ tà hợp tác 1-4 người lấy bối cảnh đầu những năm 1900. Người chơi vào vai những người trừ tà chịu trách nhiệm giải quyết các vụ án bị quỷ ám.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2976900/header.jpg?t=1742575286",
+        "price": "192.000₫",
+        "developer": "Chreseeba Games",
+        "tags": ["Siêu nhiên", "Kinh dị tâm lý", "Chơi nhiều người"]
+    },
+    {
+        "id": "49",
+        "title": "Fate/Samurai Remnant",
+        "description": "“Mong muốn của ngươi sẽ tiêu tan...” Cuộc chiến Chén Thánh bắt đầu ở Edo Nhật Bản. Một game nhập vai hành động Fate hoàn toàn mới được trình bày bởi TYPE-MOON và KOEI TECMO GAMES.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1902690/header.jpg?t=1737445859",
+        "price": "1.190.000₫",
+        "developer": "KOEI TECMO GAMES CO., LTD.",
+        "tags": ["Nhập vai Nhật(JRPG)", "Anime", "Lịch sử", "Visual Novel"]
+    },
+    {
+        "id": "50",
+        "title": "NEEDY GIRL OVERDOSE",
+        "description": "NEEDY STREAMER OVERLOAD là một “ADV nhiều kết thúc” mô tả cuộc sống hàng ngày của “OMGkawaiiAngel”, một cô gái trẻ có nhu cầu được chấp thuận khá cao khi cố gắng trở thành “Thiên thần Internet” (streamer) số 1.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1451940/header.jpg?t=1730165409",
+        "price": "175.000₫",
+        "developer": "WSS playground, xemono",
+        "tags": ["Kinh dị tâm lý", "Anime", "Visual Novel", "Dễ Thương", "Đồ họa pixel"]
+    },
+    {
+        "id": "51",
+        "title": "Fate/stay night REMASTERED",
+        "description": "Tìm kiếm gốc rễ của loạt phim Fate. Quay trở lại nơi mọi thứ bắt đầu.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2396980/header.jpg?t=1726036301",
+        "price": "385.000₫",
+        "developer": "TYPE-MOON , fuzz Inc.",
+        "tags": ["Visual Novel", "Anime", "Giàu cốt truyện", "Phiêu lưu"]
+    },
+    {
+        "id": "52",
+        "title": "Doki Doki Literature Club!",
+        "description": "Câu lạc bộ Văn học có rất nhiều cô gái dễ thương! Bạn có viết được đường vào trái tim họ không? Trò chơi này không phù hợp với trẻ em hoặc những người dễ bị quấy rầy.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/header.jpg?t=1681943582",
+        "price": "Miễn phí",
+        "developer": "Team Salvato",
+        "tags": ["Kinh dị tâm lý", "Visual Novel", "Anime"]
+    },
+    {
+        "id": "53",
+        "title": "ANIMAL WELL",
+        "description": "Khám phá một mê cung dày đặc, kết nối với nhau và giải mã nhiều bí mật của nó. Thu thập các vật phẩm để điều khiển môi trường của bạn theo những cách đáng ngạc nhiên và có ý nghĩa. Gặp phải những sinh vật xinh đẹp và đáng sợ, khi bạn cố gắng sống sót trước những gì ẩn núp trong bóng tối. Có nhiều hơn những gì bạn nhìn thấy.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1736282851",
+        "price": "312.000₫",
+        "developer": "Billy Basso",
+        "tags": ["Metroidvania", "Khám phá", "Giải đố", "Đồ họa pixel"]
+    },
+    {
+        "id": "54",
+        "title": "Fate/EXTELLA",
+        "description": "Trong thế giới số của SE.RA.PH, Cuộc chiến Chén Thánh đã kết thúc, nhưng người cai trị mới của vùng đất này phải đối mặt với những thách thức và mối đe dọa từ mọi phía. Những người hầu giờ đây thấy mình đang lập nên những liên minh căng thẳng và không thể ngờ tới, chuẩn bị cho một cuộc xung đột có thể xé nát SE.RA.PH... hoặc phá hủy nó hoàn toàn.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/511680/header.jpg?t=1741711154 ",
+        "price": "310.000₫",
+        "developer": "Marvelous Inc.",
+        "tags": ["Anime", "Hành động", "Giàu cốt truyện", "Nhập vai Nhật(JRPG)"]
+    },
+    {
+        "id": "55",
+        "title": "Fate/EXTELLA LINK",
+        "description": "Lịch sử, truyền thuyết và khoa học viễn tưởng va chạm trong chương mới nhất của loạt truyện Fate/EXTRA! Tham gia cùng 26 Linh hồn anh hùng từ khắp mọi thời đại khi họ chém giết nhau trên khắp các chiến trường của SE.RA.PH, một thế giới kỹ thuật số dành cho những người sống sót cuối cùng trên Trái Đất.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/622220/header.jpg?t=1741822729",
+        "price": "390.000₫",
+        "developer": "Marvelous Inc.",
+        "tags": ["Anime", "Hành động", "Giàu cốt truyện", "Nhập vai Nhật(JRPG)"]
+    },
+    {
+        "id": "56",
+        "title": "Red Dead Redemption 2",
+        "description": "RDR2 là câu chuyện sử thi về tên cướp Arthur Morgan và băng đảng Van der Linde khét tiếng, đang chạy trốn khắp nước Mỹ vào buổi bình minh của thời đại hiện đại.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+        "price": "1.359.000₫",
+        "developer": "Rockstar Games",
+        "tags": ["Thế giới mở", "Giàu cốt truyện", "Viễn tây", "Phiêu lưu"]
+    },
+    {
+        "id": "57",
+        "title": "Ghost of Tsushima DIRECTOR'S CUT",
+        "description": "Một cơn bão đang ập đến. Tận hưởng trọn vẹn Ghost of Tsushima DIRECTOR'S CUT trên PC; tạo dựng con đường của riêng bạn trong chuyến phiêu lưu hành động thế giới mở này và khám phá những điều kỳ diệu còn ẩn giấu.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883",
+        "price": "1.359.000₫",
+        "developer": "Sucker Punch Productions, Nixxes Software",
+        "tags": ["Hành động", "Thế giới mở", "Phiêu lưu", "Chơi đơn"]
+    },
+    {
+        "id": "58",
+        "title": "Jump King",
+        "description": "Hãy đón nhận thử thách và đối mặt với trò chơi nhảy dù thực sự nguy hiểm trong Jump King! Hãy cố gắng leo lên để tìm kiếm Cô nàng nóng bỏng trong truyền thuyết, nhưng hãy khám phá thật cẩn thận; chỉ cần một cú nhảy hụt có thể dẫn đến một cú ngã dài...",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1061090/header.jpg?t=1708097084",
+        "price": "165.000₫",
+        "developer": "Nexile",
+        "tags": ["Kinh dị tâm lý", "Độ khó cao", "Platformer"]
+    },
+    {
+        "id": "59",
+        "title": "Batman™: Arkham Origins",
+        "description": "Tính đến ngày 4 tháng 12 năm 2016, phần dịch vụ trực tuyến của Batman: Arkham Origins sẽ ngừng hoạt động. Chúng tôi xin cảm ơn những người đã tham gia cùng chúng tôi trong suốt 3 năm qua. Chiến dịch chơi đơn vẫn có thể được chơi và thưởng thức ngoại tuyến.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209000/header.jpg?t=1739312421",
+        "price": "188.000₫",
+        "developer": "WB Games Montreal, Splash Damage",
+        "tags": ["Hành động", "Thế giới mở", "Siêu anh hùng", "Lén lụt"]
+    },
+    {
+        "id": "60",
+        "title": "Outlast 2",
+        "description": "Outlast 2 giới thiệu cho bạn Sullivan Knoth và những người theo ông, những người đã rời bỏ thế giới độc ác của chúng ta để tạo ra Temple Gate, một thị trấn nằm sâu trong vùng hoang dã và ẩn mình khỏi nền văn minh. Knoth và những người theo ông đang chuẩn bị cho những đau khổ của ngày tận thế và bạn đang ở ngay trong đó.",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
+        "price": "385.000₫",
+        "developer": "Red Barrels",
+        "tags": ["Đen tối", "Kinh dị tâm lý", "Kinh dị sống còn", "Chơi đơn", "Máu"]
+    },
+    {
+        "id": "61",
+        "title": "The NOexistenceN of You, and Me",
+        "description": "Sử dụng trò chơi như một phương tiện để giới thiệu thế giới của bạn/cô gái. Khám phá sự thật của bạn/cô gái/thế giới thông qua hình thức tiểu thuyết trực quan.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2873080/header.jpg?t=1744105397",
+        "price": "30.000₫",
+        "developer": "Fontainebleau",
+        "tags": ["Visual Novel", "Kinh dị tâm lý", "nhiều kết thúc", "Anime"]
+    },
+    {
+        "id": "62",
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "Bạn là Geralt xứ Rivia, một lính đánh thuê diệt quái vật. Trước mặt bạn là một lục địa bị chiến tranh tàn phá, đầy rẫy quái vật mà bạn có thể khám phá theo ý muốn. Hợp đồng hiện tại của bạn? Truy tìm Ciri — Đứa con của lời tiên tri, một vũ khí sống có thể thay đổi hình dạng của thế giới.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1736424367",
+        "price": "660.000₫",
+        "developer": "CD PROJEKT RED",
+        "tags": ["Thế giới mở", "Nhập vai(RPG)", "Giàu cốt truyện"]
+    },
+    {
+        "id": "63",
+        "title": "War Thunder",
+        "description": "War Thunder là trò chơi quân sự MMO đa nền tảng miễn phí toàn diện tập trung vào hàng không, phương tiện bọc thép và tàu hải quân, gồm các đơn vị chiến đấu từ đầu thế kỷ 20 đến thời hiện đại tiên tiến nhất. Tham gia ngay vào trận chiến lớn trên đất liền, trên không và trên biển.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/143bb936a24b8dfb7a8eadcb7173e9ab5bc1fa62/header.jpg?t=1744019459",
+        "price": "Miễn phí",
+        "developer": "Gaijin Entertainment",
+        "tags": ["Mô phỏng", "Giao chiến bằng xe", "Thế chiến II", "Quân đội"]
+    },
+    {
+        "id": "64",
+        "title": "No Man's Sky",
+        "description": "No Man's Sky là trò chơi về khám phá và sinh tồn trong một vũ trụ vô tận được tạo ra theo thủ tục.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/a98cb49e7544cfe93ddb259fa7cd44859fb79913/header_alt_assets_15.jpg?t=1742997746",
+        "price": "705.000₫",
+        "developer": "Hello Games",
+        "tags": ["Thế giới mở", "Chế tác", "Sinh tồn", "Vũ trụ"]
+    },
+    {
+        "id": "65",
+        "title": "Titanfall® 2",
+        "description": "Respawn Entertainment cung cấp cho bạn công nghệ titan tiên tiến nhất trong chiến dịch chơi đơn & trải nghiệm nhiều người chơi mới. Kết hợp & chinh phục với các titan & phi công mới, vũ khí chết người hơn, & hệ thống tùy chỉnh và tiến trình giúp bạn và titan của bạn hòa làm một lực lượng giết chóc không thể ngăn cản.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1726160226",
+        "price": "700.000₫",
+        "developer": "Respawn Entertainment",
+        "tags": ["Bắn súng góc nhìn thứ nhất(FPS)", "Mech & Mecha", "Chơi nhiều người"]
+    },
+    {
+        "id": "66",
+        "title": "Duck Season",
+        "description": "Trò chơi trong mơ của bạn vừa ra mắt, DUCK SEASON, một thợ săn với đồ họa kỳ cục. May mắn thay, đó là kỳ nghỉ hè và mẹ vừa làm bạn ngạc nhiên khi cho bạn thuê một ngày! Thật không may, khi bạn chơi liên tục, bạn nhận ra rằng Duck Season không ổn chút nào...",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/503580/header.jpg?t=1667677823",
+        "price": "260.000₫",
+        "developer": "Stress Level Zero",
+        "tags": ["Kinh dị", "Kinh dị tâm lý", "Thực tế ảo", "Hành động"]
+    },
+    {
+        "id": "67",
+        "title": "Project Zomboid",
+        "description": "Sử dụng trò chơi như một phương tiện để giới thiệu thế giới của bạn/cô gái. Khám phá sự thật của bạn/cô gái/thế giới thông qua hình thức tiểu thuyết trực quan.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1739309087",
+        "price": "260.000₫",
+        "developer": "The Indie Stone",
+        "tags": ["Sinh tồn", "Zombie", "Thế giới mở", "Chơi nhiều người"]
+    },
+    {
+        "id": "68",
+        "title": "NEKOPARA After",
+        "description": "Một chương mới bắt đầu với sự xuất hiện của cô gái mèo, Fraise! Cô tìm kiếm lời khuyên từ em gái của anh, Shigure và trong khi Fraise cảm thấy mối quan hệ giữa anh chị em là quan trọng nhất, Shigure ưu tiên hạnh phúc của các cô gái mèo của cô. Điều này đặt ra bối cảnh cho cuộc chiến giữa cô gái mèo và cô",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3655150/faf50f4be200ed9e0996a54ed5db39c12e524002/header.jpg?t=1744329587",
+        "price": "",
+        "developer": "NEKO WORKs",
+        "tags": ["Visual Novel", "Phiêu lưu", "Đơn giản", "Platformer 2D"]
+    },
+    {
+        "id": "69",
+        "title": "Hoa",
+        "description": "Hoa là một trò chơi giải đố - nền tảng tuyệt đẹp với hình ảnh vẽ tay đẹp mắt, âm nhạc du dương và bầu không khí yên bình, thư giãn.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1484900/header.jpg?t=1726253553",
+        "price": "165.000₫",
+        "developer": "Skrollcat Studio",
+        "tags": ["Platformer 2D", "Thư giãn", "Hành động", "Phiêu lưu"]
+    },
+    {
+        "id": "70",
+        "title": "Fallout 4",
+        "description": "Bethesda Game Studios, nhà sáng tạo từng đoạt giải thưởng của Fallout 3 và The Elder Scrolls V: Skyrim, chào mừng bạn đến với thế giới Fallout 4 trò chơi đầy tham vọng nhất từ trước đến nay của họ và là thế hệ trò chơi thế giới mở tiếp theo.",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1726758475",
+        "price": "450.000₫",
+        "developer": "Bethesda Game Studios",
+        "tags": ["Thế giới mở", "Hậu tận thế", "Chơi đơn", "Khám phá"]
+    }
+]

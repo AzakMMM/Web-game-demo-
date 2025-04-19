@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+header h1 {
+    color: #ff4757;
+    font-size: 50px;
+}
+
+.mainbox {
+    display: flex;
+    height: 795px;
+    background-color: #121416;
+    width: 100%;
+}
+
+aside {
+    flex: 0 0 250px;
+    background-color: #1F2833;
+    padding: 20px;
+    height: 500px;
+    width: 300px;
+    border-radius: 8px; 
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+aside h2 {
+    font-size: 20px;
+    color: #ff4757;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 5px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+aside a:hover {
+    color: #ff4757;
+}
+
+aside ul li a.active {
+    color: #ff4757;
+}
+
+.container {
+    background-color: #1F2833;
+    padding: 30px;
+    border-radius: 12px;
+    height: 450px;
+    margin-top: 125px;
+    margin-left: 480px;
+    width: 350px;
+    transition: 0.3s;
+}
+
+h2 {
+    text-align: center;
+    color: #ff3333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff3333;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.switch {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.switch a {
+    color: #ff3333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.input-icon {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #1F2833;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px; 
+}

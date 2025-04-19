@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LM Store - Khám phá</title>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/khampha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../js/khampha.js"></script>
+</head>
+<body>
+    <header>
+        <h1>LM Store</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="khampha.html" class="active">Khám phá</a></li>
+                <li><a href="Hotro.html">Hỗ trợ</a></li>
+                <li><a href="Thongtin.html">Thông tin</a></li>
+                <li><a href="dndk.html">Đăng Nhập</a></li>
+            </ul>
+        </nav>
+    </header>
+    <left-aside>
+        <ul class="filter">
+            <div class="box">
+                <h3>Bộ lọc</h3>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm..." onkeyup="searchFunction()">
+                <li><a href="#">Mới nhất</a></li>
+                <li><a href="#">Giá</a></li>
+                <li><a href="#">Thịnh Hành</a></li>
+                <li><a href="#">Thể loại</a></li>
+            </div>
+        </ul>
+        <section class="rec-games">
+            <div class="game-list page" data-page="1">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=1" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2527500/header.jpg?t=1740650632" alt="MiSide">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>205.500₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=2" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg?t=1730911936" alt="It Takes Two">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>790.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=3" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1729208919" alt="Subnautica">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>595.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=4" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1739210483" alt="Dota 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <i class="fab fa-steam"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=5" style="text-decoration: none;">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1729209036" alt="Subnautica Below Zero">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>595.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=6" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1742305587" alt="Atomic Heart">
+                            <div class="distance-logo-text">
+                                <i class="fab fa-windows"></i>
+                                <span>800.000₫</span>
+                            </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=7" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906" alt="Stray">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>379.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=8" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1726400/header.jpg?t=1678019934" alt="Thần Trùng">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>75.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=9" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1462040/header.jpg?t=1737643021" alt="FINAL FANTASY VII REMAKE INTERGRADE">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>990.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=10" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1742852969" alt="Split Fiction">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>899.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=11" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg?t=1737565204" alt="SILENT HILL 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.400.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=12" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2947440/fb3eeba8f26d3fa6a0dcf4fe41af20677aa97936/header.jpg?t=1741903246" alt="SILENT HILL f">
+                        <p style="text-align: center; color: white; font-size: 20px; padding: 10px;">Sắp ra mắt</p>
+                    </a>
+                </div>
+            </div>
+            <div class="game-list page" data-page="2">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=13" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1729703045" alt="Counter-Strike 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-steam"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=14" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1741142800" alt="Resident Evil Village">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>881.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=15" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg?t=1740090955" alt="Phasmophobia">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>260.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=16" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1738927718" alt="Rust">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>470.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=17" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/500/header.jpg?t=1738796049" alt="Left 4 Dead">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>142.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=18" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg?t=1740578354" alt="R.E.P.O.">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>142.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=19" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1742975808" alt="Monster Hunter Wilds">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.390.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=20" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985" alt="God of War Ragnarök">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.290.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=21" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg?t=1738007476" alt="Hogwarts Legacy">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.290.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=22" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1739922037" alt="ELDEN RING">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>990.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=23" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1203220/69531442db0cbb2581bfe842a24e270536648b5b/header.jpg?t=1743561922" alt="NARAKA BLADEPOINT">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=24" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg?t=1702308063" alt="DOOM Eternal">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>490.000₫</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="game-list page" data-page="3">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=25" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1673000/header.jpg?t=1698554680" alt="Cỏ Máu">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>99.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=26" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1672970/header.jpg?t=1717003107" alt="Minecraft Dungeons">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>450.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=27" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146" alt="Stardew Valley">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <i class="fab fa-steam"></i>
+                            <span>165.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=28" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1657630/header.jpg?t=1734026440" alt="Slime Rancher 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>325.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=29" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg?t=1740028453" alt="DAVE THE DIVER">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>156.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=30" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1739550347" alt="DREDGE">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>500.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=31" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3061810/header.jpg?t=1743179987" alt="Like a Dragon Pirate Yakuza in Hawaii">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>980.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=32" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg?t=1730983128" alt="Vampire Survivors">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>56.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=33" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856" alt="Sons Of The Forest">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>385.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=34" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1740386911" alt="Baldur's Gate 3">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>990.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=35" style="text-decoration: none;">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/1408/l3bg7nmfPpPzam5jOVlaUFww.jpg" alt="Street Fighter 6">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-playstation"></i>
+                            <i class="fab fa-windows"></i>
+                            <span>1.322.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=36" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg?t=1701395090" alt="Devil May Cry 5">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>705.000₫</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="game-list page" data-page="4">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=37" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1733297467" alt="Persona 5 Royal">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.380.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=38" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg?t=1741878275" alt="NieR:Automata™">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-playstation"></i>
+                            <i class="fab fa-windows"></i>
+                            <span>833.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=39" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1726158438" alt="Sekiro™: Shadows Die Twice">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-playstation"></i>
+                            <i class="fab fa-windows"></i>
+                            <span>1.290.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=40" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629820/header.jpg?t=1697725794" alt="Maneater">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>310.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=41" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/557340/header.jpg?t=1738277402" alt="My Friend Pedro">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>260.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=42" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2273430/header.jpg?t=1737400773" alt="BlazBlue Entropy Effect">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>260.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=43" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1742561528" alt="Black Myth Wukong">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.299.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=44" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1734434803" alt="Cyberpunk 2077">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>990.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=45" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1739988558" alt="Dying Light 2 Stay Human: Reloaded Edition">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>990.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=46" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428" alt="Hollow Knight">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-playstation"></i>
+                            <span>165.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=47" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/header.jpg?t=1741923063" alt="Marvel Rivals">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=48" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2976900/header.jpg?t=1742575286" alt="Unpossess: Exorcism Simulator">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>192.000₫</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="game-list page" data-page="5">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=49" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1902690/header.jpg?t=1737445859" alt="Fate/Samurai Remnant">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>69.00$</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=50" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1451940/header.jpg?t=1730165409" alt="NEEDY GIRL OVERDOSE">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>175.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=51" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2396980/header.jpg?t=1726036301" alt="Fate/stay night REMASTERED">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>385.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=52" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/header.jpg?t=1681943582" alt="Doki Doki Literature Club!">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=53" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1736282851" alt="ANIMAL WELL">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>312.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=54" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/511680/header.jpg?t=1741711154 " alt="Fate/EXTELLA">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>310.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=55" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/622220/header.jpg?t=1741822729" alt="Fate/EXTELLA LINK">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>390.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=56" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643" alt="Red Dead Redemption 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.359.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=57" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883" alt="Ghost of Tsushima DIRECTOR'S CUT">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>1.359.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=58" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1061090/header.jpg?t=1708097084" alt="Jump_King">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>165.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=59" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209000/header.jpg?t=1739312421" alt="Batman™: Arkham Origins">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>188.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=60" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453" alt="Outlast 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-playstation"></i>
+                            <i class="fab fa-windows"></i>
+                            <span>385.000₫</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="game-list page" data-page="6">
+                <div class="game">
+                    <a href="../html/chitiet.html?id=61" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2873080/header.jpg?t=1744105397" alt="The NOexistenceN of You, and Me">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>30.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=62" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1736424367" alt="The Witcher 3: Wild Hunt">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>660.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=63" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/236390/143bb936a24b8dfb7a8eadcb7173e9ab5bc1fa62/header.jpg?t=1744019459" alt="War Thunder">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <i class="fab fa-steam"></i>
+                            <span>Miễn phí</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=64" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/a98cb49e7544cfe93ddb259fa7cd44859fb79913/header_alt_assets_15.jpg?t=1742997746" alt="No Man's Sky">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>705.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=65" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1726160226" alt="Titanfall® 2">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>700.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=66" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/503580/header.jpg?t=1667677823" alt="Duck Season">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>260.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=67" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1739309087" alt="Project Zomboid">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <i class="fab fa-steam"></i>
+                            <span>260.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=68" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3655150/faf50f4be200ed9e0996a54ed5db39c12e524002/header.jpg?t=1744329587" alt="NEKOPARA After">
+                        <p style="text-align: center; color: white; font-size: 20px; padding: 10px;">Sắp ra mắt</p>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=69" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1484900/header.jpg?t=1726253553" alt="Hoa">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <i class="fab fa-apple"></i>
+                            <span>165.000₫</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game">
+                    <a href="../html/chitiet.html?id=70" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1726758475" alt="Fallout 4">
+                        <div class="distance-logo-text">
+                            <i class="fab fa-windows"></i>
+                            <span>450.000₫</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#" class="prev">&lt;</a>
+                <a href="#" class="page-link active" data-page="1">1</a>
+                <a href="#" class="page-link" data-page="2">2</a>
+                <a href="#" class="page-link" data-page="3">3</a>
+                <a href="#" class="page-link" data-page="4">4</a>
+                <a href="#" class="page-link" data-page="5">5</a>
+                <a href="#" class="page-link" data-page="6">6</a>
+                <a href="#" class="next">&gt;</a>
+            </div>
+        </section>
+    </left-aside>
+    <article>
+        <div class="kp-category-box">
+            <div class="kp-header">
+                <h2>Game ngẫu nhiên</h2>
+                <div class="kp-arrow-buttons">
+                    <button onclick="prevPage()">←</button>
+                    <button onclick="nextPage()">→</button>
+                </div>
+            </div>
+
+        <div class="kp-game-wrapper" id="kp-wrapper">
+            <div class="kp-game-list" id="kp-gameList">
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=50" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1451940/header.jpg?t=1730165409"><p class="kp-game-title">NEEDY GIRL OVERDOSE</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=9" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1462040/header.jpg?t=1737643021"><p class="kp-game-title">FINAL FANTASY VII REMAKE INTERGRADE</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=2" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg?t=1730911936"><p class="kp-game-title">It Takes Two</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=6" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1742305587"><p class="kp-game-title">Atomic Heart</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=58" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1061090/header.jpg?t=1708097084"><p class="kp-game-title">Jump King</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=16" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1738927718"><p class="kp-game-title">Rust</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=44" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1734434803"><p class="kp-game-title">Cyberpunk 2077</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=65" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1726160226"><p class="kp-game-title">Titanfall® 2</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=12" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2947440/fb3eeba8f26d3fa6a0dcf4fe41af20677aa97936/header.jpg?t=1741903246"><p class="kp-game-title">SILENT HILL f</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=38" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg?t=1741878275"><p class="kp-game-title">NieR:Automata™</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=24" style="text-decoration: none;">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg?t=1702308063"><p class="kp-game-title">DOOM Eternal</p>
+                    </a>
+                </div>
+                <div class="kp-game-card">
+                    <a href="../html/chitiet.html?id=61" style="text-decoration: none;">
+                        <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2873080/header.jpg?t=1744105397"><p class="kp-game-title">The NOexistenceN of You, and Me</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p>&copy; 2025 LMStore</p>
+    </footer>
+    <div id="secret" style="display: none; text-align: center; color: #2ed573; margin-top: 20px; font-size: 20px;"></div>
+</body>
+</html>

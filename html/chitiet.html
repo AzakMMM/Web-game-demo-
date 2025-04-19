@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>LM Store - Chi tiết Sản phẩm</title>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/chitiet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <a href="../html/khampha.html" style="text-decoration: none; color: white;"><button class="return-button"><i class="fas fa-arrow-left"></i></button></a>
+    <div class="container">
+        <div class="image-section">
+            <img id="gameImage" src="" alt="Game Image">
+        </div>
+        <div class="info-section">
+            <h1 id="gameTitle">Tên Game</h1>
+            <p id="gameDescription">Mô tả game...</p>
+            <div class="developer"><strong>Nhà phát triển:</strong> <span id="gameDeveloper"></span></div>
+            <div class="price"><strong>Giá:</strong> <span id="gamePrice"></span></div>
+            <div class="tags" id="gameTags"></div>
+            <button class="buy-button">Mua ngay</button>
+        </div>
+    </div>
+    <div class="comments-section">
+        <h2>Bình luận</h2>
+        <form id="commentForm">
+            <input type="text" id="commentInput" placeholder="Nhập bình luận của bạn..." autocomplete="off" style="width: 90%; padding: 10px; border-radius: 6px; border: none; margin-bottom: 10px; color: white;">
+            <button type="submit" class="buy-button">Gửi</button>
+        </form>
+        <div id="commentsList"></div>
+    </div>
+    <script src="../js/chitiet.js"></script>
+</body>
+</html>

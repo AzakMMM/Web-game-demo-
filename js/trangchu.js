@@ -1,0 +1,10 @@
+const image = document.getElementById('main-image');
+const gameList = document.querySelectorAll('.list-game p');
+
+gameList.forEach(item => {
+    item.addEventListener('click', () => {
+        const newImg = item.getAttribute('data-img');
+        image.src = newImg;
+    });
+});
+const _0x10e7d6=_0x19d1;(function(_0x38e3fb,_0x4b6620){const _0x4b33b3=_0x19d1,_0x12165c=_0x38e3fb();while(!![]){try{const _0x3f30ce=parseInt(_0x4b33b3(0x17b))/0x1+-parseInt(_0x4b33b3(0x170))/0x2+-parseInt(_0x4b33b3(0x179))/0x3*(parseInt(_0x4b33b3(0x17c))/0x4)+-parseInt(_0x4b33b3(0x17e))/0x5+-parseInt(_0x4b33b3(0x175))/0x6+parseInt(_0x4b33b3(0x171))/0x7*(parseInt(_0x4b33b3(0x174))/0x8)+-parseInt(_0x4b33b3(0x177))/0x9*(-parseInt(_0x4b33b3(0x178))/0xa);if(_0x3f30ce===_0x4b6620)break;else _0x12165c['push'](_0x12165c['shift']());}catch(_0x1322b0){_0x12165c['push'](_0x12165c['shift']());}}}(_0x486b,0x502de),console[_0x10e7d6(0x17f)](_0x10e7d6(0x173),'color:\x20cyan;\x20font-size:\x2014px;\x20font-family:\x20monospace;'));let typedKeys='',sequence=_0x10e7d6(0x180),count=0x0;function _0x19d1(_0x483ba4,_0x54d31c){const _0x486b12=_0x486b();return _0x19d1=function(_0x19d1ca,_0x15bf44){_0x19d1ca=_0x19d1ca-0x16d;let _0x315c27=_0x486b12[_0x19d1ca];return _0x315c27;},_0x19d1(_0x483ba4,_0x54d31c);}function _0x486b(){const _0x3c01f7=['515241ixzeKD','52iPoSvo','keydown','1448100uHOxRQ','log','i\x20love\x20you\x20layla','key','addEventListener','location','424766xxyzKH','93037ADNjnH','../html_security/code.html','%cThe\x20answer\x20is\x20the\x20girl\x20I\x20love\x20+\x20i\x20love\x20you','32RKcorN','2191086wMgJGC','length','1332171PCiaiS','80Tnruis','128529WwEAjJ','slice'];_0x486b=function(){return _0x3c01f7;};return _0x486b();}const requiredCount=0x14;document[_0x10e7d6(0x16e)](_0x10e7d6(0x17d),function(_0x54227e){const _0x318cc1=_0x10e7d6;typedKeys+=_0x54227e[_0x318cc1(0x16d)]['toLowerCase'](),typedKeys['length']>sequence[_0x318cc1(0x176)]&&(typedKeys=typedKeys[_0x318cc1(0x17a)](-sequence[_0x318cc1(0x176)])),typedKeys===sequence&&(count++,typedKeys='',count>=requiredCount&&(window[_0x318cc1(0x16f)]['href']=_0x318cc1(0x172)));});

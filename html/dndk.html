@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LM Store - Đăng nhập</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="../css/dndk.css">
+  <script src="../js/dndk.js"></script>
+</head>
+<body>
+    <header>
+        <h1>LM Store</h1>
+    </header>
+    <div class="mainbox">
+        <aside>
+            <h2>Danh mục</h2>
+            <ul>
+                <li><a href="../index.html"></i> Trang Chủ</a></li>
+                <li><a href="khampha.html">Khám phá</a></li>
+                <li><a href="Hotro.html">Hỗ trợ</a></li>
+                <li><a href="Thongtin.html">Thông tin</a></li>
+                <li><a href="dndk.html" class="active">Đăng Nhập</a></li>
+            </ul>
+        </aside>
+        <div>
+            <form>
+                <div class="container" id="loginForm">
+                    <h2>Đăng nhập</h2>
+                    <div class="input-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Tên đăng nhập">
+                    </div>
+
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Mật khẩu">
+                    </div>
+                    
+                    <button>Đăng nhập</button>
+                    <div class="switch">
+                    Chưa có tài khoản? <a onclick="switchForm('register')">Đăng ký</a>
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div class="container hidden" id="registerForm">
+                    <h2>Đăng ký</h2>
+                    <div class="input-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Tên đăng nhập">
+                    </div>
+
+                    <div class="input-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Mật khẩu">
+                    </div>
+                    
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Nhập lại mật khẩu">
+                    </div>
+                    
+                    <button>Đăng ký</button>
+                    <div class="switch">
+                    Đã có tài khoản? <a onclick="switchForm('login')">Đăng nhập</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 LMStore</p>
+    </footer>
+</body>
+</html>
